@@ -1,0 +1,6 @@
+# Keep CI/dev files out of the release zip (git archive honors export-ignore).
+# Users get exactly: pelttrade/init.lua
+# README.md stays TRACKED as the GitHub landing page, but does not ship in the zip.
+README.md export-ignore
+.github export-ignore
+.gitattributes export-ignore
